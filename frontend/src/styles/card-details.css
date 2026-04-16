@@ -1,0 +1,100 @@
+.bold {
+  font-weight: bolder;
+}
+.card-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: white;
+  padding: 20px 10px;
+  border-radius: 10px;
+  color: black;
+  height: 60%;
+  gap: 20px;
+}
+.card-detail h2 {
+  margin: 0;
+}
+.card-detail h3 {
+  margin: 10px 0;
+}
+.card-detail .img-detail {
+  height: 505.297px;
+  width: 361.797px;
+}
+
+.detail-text {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, auto);
+}
+
+.detail-text .title {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  grid-column: span 2 / span 2;
+  border-bottom: 1px solid gray;
+  background-color: black;
+  color: white;
+}
+
+.detail-text h3:not(:nth-last-child(-n + 1)) {
+  border-bottom: 0.5px solid gray;
+}
+
+.detail-text h3:nth-last-child(-n + 2) {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: span 2 / span 2;
+  background-color: black;
+  color: white;
+}
+.types-span {
+  grid-column: span 2 / span 2;
+}
+.effect-detail {
+  grid-column: span 2 / span 2;
+}
+
+.trigger-detail {
+  grid-column: span 2 / span 2;
+  grid-row-start: 4;
+}
+
+@media screen and (max-width: 1199px) {
+  .card-detail {
+    width: 80%;
+    height: 74vh;
+  }
+  .card-detail .img-detail {
+    width: 44%;
+    height: 100%;
+  }
+
+  .detail-text {
+    font-size: 0.9rem;
+    height: 65vh;
+  }
+}
+@media screen and (max-width: 767px) {
+  .card-detail {
+    height: 100%;
+  }
+  .detail-text {
+    font-size: 0.4rem;
+    height: 38vh;
+  }
+  .card-detail .img-detail {
+    width: 50%;
+    height: 70%;
+  }
+}

@@ -1,0 +1,361 @@
+[
+  {
+    "id": "EB01-015_p3",
+    "pack_id": "569024",
+    "name": "Scratchmen Apoo",
+    "rarity": "R",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/EB01-015_p3.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-015_p3.png?260327",
+    "colors": [
+      "Green"
+    ],
+    "cost": "1",
+    "attributes": [
+      "Special"
+    ],
+    "power": "1000",
+    "counter": "2000",
+    "types": [
+      "Supernovas",
+      "On-Air Pirates"
+    ],
+    "effect": "Effect[On Play] Rest up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "trigger": null
+  },
+  {
+    "id": "OP07-019_p3",
+    "pack_id": "569024",
+    "name": "Jewelry Bonney",
+    "rarity": "L",
+    "category": "LEADER",
+    "img_url": "../images/cardlist/card/OP07-019_p3.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-019_p3.png?260327",
+    "colors": [
+      "Green"
+    ],
+    "attributes": [
+      "Special"
+    ],
+    "power": "5000",
+    "counter": 0,
+    "types": [
+      "Supernovas",
+      "Bonney Pirates"
+    ],
+    "effect": "Effect[On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards: Rest up to 1 of your opponent's Leader or Character cards.",
+    "trigger": null
+  },
+  {
+    "id": "OP07-021_r1",
+    "pack_id": "569024",
+    "name": "Urouge",
+    "rarity": "R",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/OP07-021_r1.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-021_r1.png?260327",
+    "colors": [
+      "Green"
+    ],
+    "cost": "4",
+    "attributes": [
+      "Strike"
+    ],
+    "power": "5000",
+    "counter": "1000",
+    "types": [
+      "Supernovas",
+      "Fallen Monk Pirates"
+    ],
+    "effect": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[End of Your Turn] Set up to 1 of your DON!! cards as active.",
+    "trigger": null
+  },
+  {
+    "id": "OP07-023_r1",
+    "pack_id": "569024",
+    "name": "Caribou",
+    "rarity": "UC",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/OP07-023_r1.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-023_r1.png?260327",
+    "colors": [
+      "Green"
+    ],
+    "cost": "4",
+    "attributes": [
+      "Special"
+    ],
+    "power": "5000",
+    "counter": "1000",
+    "types": [
+      "Supernovas",
+      "Caribou Pirates"
+    ],
+    "effect": "EffectIf you have 6 or more rested DON!! cards, this Character gains +1000 power.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null
+  },
+  {
+    "id": "OP07-025_r1",
+    "pack_id": "569024",
+    "name": "Coribou",
+    "rarity": "C",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/OP07-025_r1.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-025_r1.png?260327",
+    "colors": [
+      "Green"
+    ],
+    "cost": "3",
+    "attributes": [
+      "Strike"
+    ],
+    "power": "3000",
+    "counter": 0,
+    "types": [
+      "Supernovas",
+      "Caribou Pirates"
+    ],
+    "effect": "Effect[On Play] Play up to 1 [Caribou] with a cost of 4 or less from your hand rested.",
+    "trigger": null
+  },
+  {
+    "id": "OP07-031_r1",
+    "pack_id": "569024",
+    "name": "Bartolomeo",
+    "rarity": "UC",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/OP07-031_r1.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-031_r1.png?260327",
+    "colors": [
+      "Green"
+    ],
+    "cost": "3",
+    "attributes": [
+      "Special"
+    ],
+    "power": "4000",
+    "counter": "1000",
+    "types": [
+      "Supernovas",
+      "Barto Club"
+    ],
+    "effect": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Your Turn] [Once Per Turn] If a Character is rested by your effect, draw 1 card and trash 1 card from your hand.",
+    "trigger": null
+  },
+  {
+    "id": "OP07-033_r1",
+    "pack_id": "569024",
+    "name": "Monkey.D.Luffy",
+    "rarity": "UC",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/OP07-033_r1.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-033_r1.png?260327",
+    "colors": [
+      "Green"
+    ],
+    "cost": "5",
+    "attributes": [
+      "Strike"
+    ],
+    "power": "6000",
+    "counter": "1000",
+    "types": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "EffectIf you have 3 or more Characters, your Characters with a cost of 3 or less other than [Monkey.D.Luffy] cannot be K.O.'d by your opponent's effects.",
+    "trigger": null
+  },
+  {
+    "id": "OP07-034_r1",
+    "pack_id": "569024",
+    "name": "Roronoa Zoro",
+    "rarity": "UC",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/OP07-034_r1.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-034_r1.png?260327",
+    "colors": [
+      "Green"
+    ],
+    "cost": "1",
+    "attributes": [
+      "Slash"
+    ],
+    "power": "2000",
+    "counter": "1000",
+    "types": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "Effect[When Attacking] If you have 3 or more Characters, this Character gains +2000 power during this turn.",
+    "trigger": null
+  },
+  {
+    "id": "OP07-036_p1",
+    "pack_id": "569024",
+    "name": "Demonic Aura Nine-Sword Style Asura Demon Nine Flash",
+    "rarity": "R",
+    "category": "EVENT",
+    "img_url": "../images/cardlist/card/OP07-036_p1.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-036_p1.png?260327",
+    "colors": [
+      "Green"
+    ],
+    "cost": "2",
+    "attributes": [],
+    "power": 0,
+    "counter": 0,
+    "types": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "Effect[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, you may rest 1 of your Characters with a cost of 3 or more. If you do, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less."
+  },
+  {
+    "id": "OP07-037_r1",
+    "pack_id": "569024",
+    "name": "More Pizza!!",
+    "rarity": "UC",
+    "category": "EVENT",
+    "img_url": "../images/cardlist/card/OP07-037_r1.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-037_r1.png?260327",
+    "colors": [
+      "Green"
+    ],
+    "cost": "1",
+    "attributes": [],
+    "power": 0,
+    "counter": 0,
+    "types": [
+      "Supernovas",
+      "Bonney Pirates"
+    ],
+    "effect": "Effect[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [More Pizza!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "Trigger[Trigger] Draw 1 card."
+  },
+  {
+    "id": "ST24-001",
+    "pack_id": "569024",
+    "name": "Capone\"Gang\"Bege",
+    "rarity": "C",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/ST24-001.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-001.png?260327",
+    "colors": [
+      "Green"
+    ],
+    "cost": "2",
+    "attributes": [
+      "Ranged"
+    ],
+    "power": "1000",
+    "counter": "1000",
+    "types": [
+      "Supernovas",
+      "Firetank Pirates"
+    ],
+    "effect": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you have 6 or more rested cards, draw 1 card and trash 1 card from your hand.",
+    "trigger": null
+  },
+  {
+    "id": "ST24-002",
+    "pack_id": "569024",
+    "name": "Kid & Killer",
+    "rarity": "SR",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/ST24-002.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-002.png?260327",
+    "colors": [
+      "Green"
+    ],
+    "cost": "2",
+    "attributes": [
+      "Slash",
+      "Special"
+    ],
+    "power": "2000",
+    "counter": "1000",
+    "types": [
+      "Supernovas",
+      "Kid Pirates"
+    ],
+    "effect": "Effect[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.[On Your Opponent's Attack] You may trash this Character: Set up to 1 of your DON!! cards as active.",
+    "trigger": null
+  },
+  {
+    "id": "ST24-003",
+    "pack_id": "569024",
+    "name": "Basil Hawkins",
+    "rarity": "C",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/ST24-003.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-003.png?260327",
+    "colors": [
+      "Green"
+    ],
+    "cost": "4",
+    "attributes": [
+      "Slash"
+    ],
+    "power": "4000",
+    "counter": "2000",
+    "types": [
+      "Supernovas",
+      "Hawkins Pirates"
+    ],
+    "effect": "Effect[End of Your Turn] Set up to 1 of your DON!! cards as active.",
+    "trigger": null
+  },
+  {
+    "id": "ST24-004",
+    "pack_id": "569024",
+    "name": "Law & Bepo",
+    "rarity": "SR",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/ST24-004.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-004.png?260327",
+    "colors": [
+      "Green"
+    ],
+    "cost": "10",
+    "attributes": [
+      "Slash",
+      "Strike"
+    ],
+    "power": "11000",
+    "counter": 0,
+    "types": [
+      "Minks",
+      "Supernovas",
+      "Heart Pirates"
+    ],
+    "effect": "Effect[On Play] Rest up to 1 of your opponent's Characters and that Character will not become active in your opponent's next Refresh Phase. Then, if your opponent has 2 or more rested Characters, your Leader gains +2000 power until the end of your opponent's next End Phase.",
+    "trigger": null
+  },
+  {
+    "id": "ST24-005",
+    "pack_id": "569024",
+    "name": "X.Drake",
+    "rarity": "C",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/ST24-005.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-005.png?260327",
+    "colors": [
+      "Green"
+    ],
+    "cost": "5",
+    "attributes": [
+      "Slash"
+    ],
+    "power": "5000",
+    "counter": "2000",
+    "types": [
+      "Supernovas",
+      "Navy",
+      "Drake Pirates"
+    ],
+    "effect": "Effect[On Play] If your Leader has the {Supernovas} type, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
+    "trigger": null
+  }
+]

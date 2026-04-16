@@ -1,0 +1,26 @@
+{
+  "name": "my-app-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fullstack project with shared types",
+  "type": "module",
+  "workspaces": [
+    "frontend",
+    "backend",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "build": "npm run build -w shared && npm run build -w backend && npm run build -w frontend"
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "^2.100.1",
+    "@types/pg": "^8.20.0",
+    "dotenv": "^17.3.1",
+    "prettier": "^3.8.1",
+    "tsx": "^4.21.0"
+  },
+  "dependencies": {
+    "pg": "^8.20.0"
+  }
+}

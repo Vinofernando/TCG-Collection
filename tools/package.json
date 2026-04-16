@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "^2.100.0",
+    "axios": "^1.13.6",
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.3.1",
+    "puppeteer": "^24.40.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  },
+  "name": "tcg-collection",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

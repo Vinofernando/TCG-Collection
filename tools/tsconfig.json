@@ -1,0 +1,10 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "verbatimModuleSyntax": false, // Ubah jadi false jika sebelumnya true
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}

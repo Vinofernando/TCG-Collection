@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "ignoreDeprecations": "6.0",
+    "baseUrl": "./",
+    // Tarik rootDir satu tingkat ke atas agar mencakup folder 'shared'
+    "rootDir": "..",
+    "typeRoots": ["./node_modules/@types", "./src/types"]
+  },
+  "include": ["src/**/*", "../shared/**/*"]
+}

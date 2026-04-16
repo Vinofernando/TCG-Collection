@@ -1,0 +1,83 @@
+body {
+  background-color: antiquewhite;
+}
+
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 0fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 8px;
+  justify-content: center;
+}
+
+.home-img {
+  height: 260px;
+  width: 200px;
+}
+
+.home-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+/* Container Pagination */
+.custom-pagination .pagination {
+  gap: 5px; /* Memberi jarak antar kotak angka */
+  justify-content: center; /* Mengetengahkan pagination */
+}
+
+/* Styling item angka */
+.custom-pagination .page-link {
+  color: #2c3e50;
+  border-radius: 8px !important; /* Membuat sudut agak bulat */
+  border: 1px solid #dee2e6;
+  transition: all 0.3s ease;
+}
+
+/* Styling saat halaman aktif */
+.custom-pagination .page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+/* Styling saat hover */
+.custom-pagination .page-link:hover {
+  background-color: #f8f9fa;
+  color: #0056b3;
+}
+
+@media screen and (max-width: 1199px) {
+  body {
+    height: 50vh;
+  }
+
+  .img-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(6, auto);
+    gap: 8px;
+    justify-content: center;
+  }
+  .home-img {
+    height: 90%;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .img-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+    gap: 8px;
+    justify-content: center;
+    margin: 50px;
+  }
+  .home-img {
+    height: 100%;
+    width: 100%;
+  }
+}

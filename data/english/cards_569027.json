@@ -1,0 +1,350 @@
+[
+  {
+    "id": "OP09-081_p2",
+    "pack_id": "569027",
+    "name": "Marshall.D.Teach",
+    "rarity": "L",
+    "category": "LEADER",
+    "img_url": "../images/cardlist/card/OP09-081_p2.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-081_p2.png?260327",
+    "colors": [
+      "Black"
+    ],
+    "attributes": [
+      "Special"
+    ],
+    "power": "5000",
+    "counter": 0,
+    "types": [
+      "The Four Emperors",
+      "Blackbeard Pirates"
+    ],
+    "effect": "EffectYour [On Play] effects are negated.[Activate: Main] You may trash 1 card from your hand: Your opponent's [On Play] effects are negated until the end of your opponent's next turn.",
+    "trigger": null
+  },
+  {
+    "id": "OP09-083_r1",
+    "pack_id": "569027",
+    "name": "Van Augur",
+    "rarity": "R",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/OP09-083_r1.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-083_r1.png?260327",
+    "colors": [
+      "Black"
+    ],
+    "cost": "5",
+    "attributes": [
+      "Ranged"
+    ],
+    "power": "6000",
+    "counter": "1000",
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "Effect[Activate: Main] You may rest this Character: If your Leader has the {Blackbeard Pirates} type, give up to 1 of your opponent's Characters −3 cost during this turn.[On K.O.] Draw 1 card.",
+    "trigger": null
+  },
+  {
+    "id": "OP09-086_r1",
+    "pack_id": "569027",
+    "name": "Jesus Burgess",
+    "rarity": "R",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/OP09-086_r1.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-086_r1.png?260327",
+    "colors": [
+      "Black"
+    ],
+    "cost": "4",
+    "attributes": [
+      "Strike"
+    ],
+    "power": "5000",
+    "counter": "1000",
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "EffectThis Character cannot be K.O.'d by your opponent's effects.If your Leader has the {Blackbeard Pirates} type, this Character gains +1000 power for every 4 cards in your trash.",
+    "trigger": null
+  },
+  {
+    "id": "OP09-088_r1",
+    "pack_id": "569027",
+    "name": "Shiryu",
+    "rarity": "UC",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/OP09-088_r1.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-088_r1.png?260327",
+    "colors": [
+      "Black"
+    ],
+    "cost": "3",
+    "attributes": [
+      "Slash"
+    ],
+    "power": "4000",
+    "counter": "2000",
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "Effect[DON!! x1] [When Attacking] You may trash 2 cards from your hand: Draw 2 cards.",
+    "trigger": null
+  },
+  {
+    "id": "OP09-089_r1",
+    "pack_id": "569027",
+    "name": "Stronger",
+    "rarity": "UC",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/OP09-089_r1.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-089_r1.png?260327",
+    "colors": [
+      "Black"
+    ],
+    "cost": "1",
+    "attributes": [
+      "Wisdom"
+    ],
+    "power": 0,
+    "counter": "2000",
+    "types": [
+      "Animal",
+      "Blackbeard Pirates"
+    ],
+    "effect": "Effect[Activate: Main] You may trash 1 card from your hand and trash this Character: If your Leader has the {Blackbeard Pirates} type, draw 1 card. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "trigger": null
+  },
+  {
+    "id": "OP09-090_r1",
+    "pack_id": "569027",
+    "name": "Doc Q",
+    "rarity": "R",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/OP09-090_r1.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-090_r1.png?260327",
+    "colors": [
+      "Black"
+    ],
+    "cost": "2",
+    "attributes": [
+      "Special"
+    ],
+    "power": 0,
+    "counter": "1000",
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "Effect[Activate: Main] You may rest this Character: If your Leader has the {Blackbeard Pirates} type, K.O. up to 1 of your opponent's Characters with a cost of 1 or less.[On K.O.] Draw 1 card.",
+    "trigger": null
+  },
+  {
+    "id": "OP09-091_r1",
+    "pack_id": "569027",
+    "name": "Vasco Shot",
+    "rarity": "C",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/OP09-091_r1.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-091_r1.png?260327",
+    "colors": [
+      "Black"
+    ],
+    "cost": "2",
+    "attributes": [
+      "Special"
+    ],
+    "power": "2000",
+    "counter": "1000",
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null
+  },
+  {
+    "id": "OP09-095_r1",
+    "pack_id": "569027",
+    "name": "Laffitte",
+    "rarity": "R",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/OP09-095_r1.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-095_r1.png?260327",
+    "colors": [
+      "Black"
+    ],
+    "cost": "1",
+    "attributes": [
+      "Strike"
+    ],
+    "power": "1000",
+    "counter": "1000",
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "Effect[Activate: Main] You may rest 1 of your DON!! cards and this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Blackbeard Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null
+  },
+  {
+    "id": "OP09-099_r1",
+    "pack_id": "569027",
+    "name": "Fullalead",
+    "rarity": "C",
+    "category": "STAGE",
+    "img_url": "../images/cardlist/card/OP09-099_r1.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-099_r1.png?260327",
+    "colors": [
+      "Black"
+    ],
+    "cost": "1",
+    "attributes": [],
+    "power": 0,
+    "counter": 0,
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "Effect[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 {Blackbeard Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null
+  },
+  {
+    "id": "OP10-084_r1",
+    "pack_id": "569027",
+    "name": "Sanjuan.Wolf",
+    "rarity": "C",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/OP10-084_r1.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-084_r1.png?260327",
+    "colors": [
+      "Black"
+    ],
+    "cost": "5",
+    "attributes": [
+      "Special"
+    ],
+    "power": "7000",
+    "counter": "1000",
+    "types": [
+      "Giant",
+      "Blackbeard Pirates"
+    ],
+    "effect": "Effect-",
+    "trigger": null
+  },
+  {
+    "id": "ST27-001",
+    "pack_id": "569027",
+    "name": "Avalo Pizarro",
+    "rarity": "C",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/ST27-001.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST27-001.png?260327",
+    "colors": [
+      "Black"
+    ],
+    "cost": "1",
+    "attributes": [
+      "Special"
+    ],
+    "power": "1000",
+    "counter": "1000",
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "Effect[Activate: Main] [Once Per Turn] You may rest 1 of your [Fullalead] cards: If your Leader has the {Blackbeard Pirates} type, this Character gains +4000 power during this turn.[On K.O.] Draw 1 card.",
+    "trigger": null
+  },
+  {
+    "id": "ST27-002",
+    "pack_id": "569027",
+    "name": "Catarina Devon",
+    "rarity": "C",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/ST27-002.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST27-002.png?260327",
+    "colors": [
+      "Black"
+    ],
+    "cost": "1",
+    "attributes": [
+      "Special"
+    ],
+    "power": "1000",
+    "counter": "2000",
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "Effect[Activate: Main] You may trash this Character: If your Leader has the {Blackbeard Pirates} type, give up to 1 of your opponent's Characters −1 cost during this turn.[On K.O.] Draw 1 card.",
+    "trigger": null
+  },
+  {
+    "id": "ST27-003",
+    "pack_id": "569027",
+    "name": "Kuzan",
+    "rarity": "SR",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/ST27-003.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST27-003.png?260327",
+    "colors": [
+      "Black"
+    ],
+    "cost": "6",
+    "attributes": [
+      "Special"
+    ],
+    "power": "6000",
+    "counter": "1000",
+    "types": [
+      "Blackbeard Pirates",
+      "Former Navy"
+    ],
+    "effect": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Play up to 1 {Blackbeard Pirates} type Character card with a cost of 5 or less from your trash rested.",
+    "trigger": null
+  },
+  {
+    "id": "ST27-004",
+    "pack_id": "569027",
+    "name": "Sanjuan.Wolf",
+    "rarity": "C",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/ST27-004.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST27-004.png?260327",
+    "colors": [
+      "Black"
+    ],
+    "cost": "4",
+    "attributes": [
+      "Strike"
+    ],
+    "power": "6000",
+    "counter": "1000",
+    "types": [
+      "Giant",
+      "Blackbeard Pirates"
+    ],
+    "effect": "EffectIf your Leader has the {Blackbeard Pirates} type, this Character gains [Blocker] and +1 cost for every 4 cards in your trash.(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Trash 1 card from your hand.",
+    "trigger": null
+  },
+  {
+    "id": "ST27-005",
+    "pack_id": "569027",
+    "name": "Marshall.D.Teach",
+    "rarity": "SR",
+    "category": "CHARACTER",
+    "img_url": "../images/cardlist/card/ST27-005.png?260327",
+    "img_full_url": "https://en.onepiece-cardgame.com/images/cardlist/card/ST27-005.png?260327",
+    "colors": [
+      "Black"
+    ],
+    "cost": "7",
+    "attributes": [
+      "Special"
+    ],
+    "power": "8000",
+    "counter": 0,
+    "types": [
+      "The Four Emperors",
+      "Blackbeard Pirates"
+    ],
+    "effect": "Effect[Activate: Main] You may rest this Character: K.O. up to 1 Character with a cost of 3 or less.[On K.O.] Add up to 1 black card from your trash to your hand.",
+    "trigger": null
+  }
+]

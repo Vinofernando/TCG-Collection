@@ -1,0 +1,13 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "outDir": "./dist",
+    // Tarik rootDir satu tingkat ke atas agar mencakup folder 'shared'
+    "rootDir": ".."
+  },
+  "include": ["src/**/*", "../shared/**/*"]
+}
