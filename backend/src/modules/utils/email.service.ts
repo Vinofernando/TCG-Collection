@@ -9,7 +9,7 @@ export const sendVerification = async (
   token: string,
 ): Promise<Mailtype | {}> => {
   const baseUrl = process.env.FRONTEND_URL || "http://localhost:5173/";
-  const link = `${baseUrl}/success-verification?token=${token}`;
+  const link = `http://localhost:3000/auth/verify?token=${token}`;
 
   try {
     const { data, error } = await resend.emails.send({
