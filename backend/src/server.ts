@@ -2,6 +2,7 @@ import "dotenv/config";
 import Fastify from "fastify";
 import cardRoutes from "./modules/cards/cards.route.js";
 import authRoutes from "./modules/auth/auth.route.js";
+import userCollectionRouts from "./modules/user_collection/user_collection.route.js";
 import cors from "@fastify/cors";
 import fastifyCookie from "@fastify/cookie";
 import fastifySession from "@fastify/session";
@@ -32,6 +33,7 @@ await app.register(fastifySession, {
 // 3. Register Routes (Sekarang rute ini bisa akses session)
 app.register(cardRoutes, { prefix: "/card" });
 app.register(authRoutes, { prefix: "/auth" });
+app.register(userCollectionRouts, { prefix: "/user-collection" });
 // app.register(authRoutes, { prefix: "/auth" }); // Rute login/register kamu nanti di sini
 
 app.get("/", async () => {
