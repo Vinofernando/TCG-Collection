@@ -4,7 +4,7 @@ import { register, login } from "./auth.service.js";
 declare module "fastify" {
   interface FastifySessionObject {
     user?: {
-      id: string;
+      id: number;
       email: string;
       username: string;
     };
@@ -42,13 +42,10 @@ export const loginController = async (
     password: body.password,
   });
 
-  // Jika gagal, langsung hentikan eksekusi
   if (!result.success) {
     return reply.status(401).send(result);
   }
 
-  // Karena sudah melewati check di atas, result.success pasti true.
-  // Kita hanya perlu memastikan result.user ada sebelum masuk ke session.
   if (result.user) {
     request.session.user = {
       id: result.user.id,
