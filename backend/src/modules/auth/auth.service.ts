@@ -48,7 +48,6 @@ export const login = async (body?: {
   email?: string;
   password?: string;
 }): Promise<LoginType> => {
-  // Gunakan interface yang pasti
   try {
     const { email, password } = body || {};
 
@@ -73,7 +72,11 @@ export const login = async (body?: {
     return {
       success: true,
       message: "Login berhasil",
-      user: { id: user.id, email: user.user_email, username: user.username },
+      user: {
+        id: user.user_id,
+        email: user.user_email,
+        username: user.user_name,
+      },
     };
   } catch (err) {
     return { success: false, message: "Internal server error" };
