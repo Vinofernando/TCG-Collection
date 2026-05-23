@@ -6,9 +6,13 @@ interface CollectionResponse {
   currentPage: number;
 }
 
+interface AddCollectionResponse {
+  data: any[];
+}
 export const getUserCollection = async (
   userId?: number,
   page = 1,
+  limit = 20,
 ): Promise<CollectionResponse> => {
   const offset = (page - 1) * 10;
   const result = await query(
@@ -35,12 +39,26 @@ export const getUserCollection = async (
         WHERE uc.user_id = $1
         LIMIT $2 OFFSET $3
         `,
-    [userId, page, offset],
+    [userId, limit, offset],
   );
 
   return {
     data: result.rows,
     total: result.rows.length,
     currentPage: page,
+  };
+};
+
+export const addCollection = async (
+  userId: number,
+  cardId: string,
+): Promise<AddCollectionResponse> => {
+  const result = await query(
+    `INSERT INTO user_collection(user_id, card_id) VALUES($1, $2) RETURNING *`,
+    [userId, cardId],
+  );
+
+  return {
+    data: result.rows[0],
   };
 };
